@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Grey+Qo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+BE+VLG&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "DM Serif Text", serif;
+}
+body{
+    background-image: url("../pexels-asadphoto-457881.jpg");
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 10px;
+    
+}
+.containerone,.containertwo{
+    width:800px  ;
+    height: 95%;
+    border-radius: 100px 0 ;
+    background-color: rgb(243, 243, 243);
+    text-shadow: 5px 4px 10px rgba(0, 0, 0, 0.169);
+    background:linear-gradient(rgba(0, 0, 255, 0.315),rgba(0, 255, 255, 0.288));
+    background-size: cover;
+    background-position: bottom ;
+    
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 2s ease;
+    padding:40px 40px;
+   
+    position: relative;
+
+
+   
+    
+}
+.containerone:hover{
+    backdrop-filter: blur(35px);
+
+}
+/* form{
+ margin: auto;
+
+
+} */
+ input{
+    margin: auto;
+ }
+h1,p{
+    text-align: center;
+    font-size: 45px;
+    color:rgb(0, 221, 255);
+    text-shadow: 2px 2px 2px aquamarine;
+    transition: 2s;
+
+
+    font-family: "Pacifico", cursive;
+
+    
+
+}
+/* h3:hover{
+    font-size:37px;
+} */
+
+
+ .two{
+   width:100%;
+   margin-top :90px
+
+ }
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.705);
+
+}
+.s{
+    width: 700px;
+    height:32px ;
+    padding:0 15px;
+    margin-bottom:15px;
+    background-color: rgba(8, 30, 201, 0.728);
+    outline:none;
+    border:none;
+    border-radius: 6px;
+    
+
+
+
+    
+}
+.s:hover{
+    background-color: rgba(46, 65, 212, 0.603);
+}
+.input2text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.799);
+
+
+}
+a{
+    color:rgba(0, 0, 255, 0.468)
+}
+button{
+  
+     width: 150px;
+    height: 40px;
+    background: transparent;
+    transition: all 3s ease;
+    margin-bottom: 8px;
+    color: aliceblue;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    transform: translateY(5px);
+}
+
+.r{
+
+   color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+
+#formone{
+    position: relative;
+}
+#formtwo{
+    position: absolute;
+    inset: 10;
+
+}
+.alert{
+    height: 5px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

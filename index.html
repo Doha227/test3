@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="containerone">
+ 
+        <form action="#" id="formone">
+        
+            <h1>Smart Login System</h1>
+              <label for="dodo" >Email</label>
+              <input  class="s" type="email" id="inputemail"  placeholder="Enter email address" oninput="validation(this)">
+              <div class="alert alert-danger d-none">
+                email should be ***123@gmail.com
+              </div>
+
+     
+                <label for="gogo" > Password</label>
+                <input  class="s mb-3" type="password"  id="inputpass"  placeholder="Enter your password" oninput="validation(this)">
+                <div class="alert alert-danger d-none">
+                    password should be 8 character&number&speacilachar
+                </div>
+ 
+
+                <div class="alert alert-danger d-none">
+                    All inputs is required
+                </div>
+
+                <div class="container w-100">
+                    <div class="row w-100 d-flex justify-content-center gy-3">
+                        <div class="col-md-3">
+                            <button class="btnone" >Log in</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="del">DELET OLD EMAIL</button>
+                        </div>
+                        <div class="col-md-3 ">
+                            <button class="clrone">clear data</button>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <span class="r">Dont have an account?<a href="#">Signup</a></span>
+                        </div>
+                    </div>
+                </div>
+       
+        
+
+            
+ 
+       
+        </form>
+
+        
+        <form action="#" class="d-none" id="formtwo">
+        
+            <h1>Smart Login System</h1>
+              <label for="inputname" >Name</label>
+              <input  class="s" type="text" id="inputname"  placeholder="Enter name" oninput="validation(this)">
+              <div class="alert alert-danger d-none">
+                name should be 3 charecter
+            </div>
+
+              <label for="inputemail" >Email</label>
+              <input  class="s" type="email" id="inputemail"  placeholder="Enter email address" oninput="validation(this)">
+              <div class="alert alert-danger d-none">
+                email should be ***123@gmail.com
+            </div>
+
+     
+                <label for="gogo" > Password</label>
+                <input  class="s" type="password"  id="inputpass"  placeholder="Enter your password" oninput="validation(this)">
+                <div class="alert alert-danger d-none">
+                    password should be 8 character&number&speacilachar
+                </div>
+ 
+
+                <div class="alert alert-danger d-none">
+                    All inputs is required
+                </div>
+
+                <div class="container w-100">
+                    <div class="row w-100 d-flex justify-content-center">
+                        <div class="col-md-3">
+                            <button class="btntwo" >Signin</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="clrtwo">clear data</button>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <span class="r">Dont have an account?<a href="#">Signin</a></span>
+                        </div>
+                    </div>
+                </div>
+ 
+        
+        </form>
+
+     
+            <p id="resign" class="d-none">hh</p>
+
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
